@@ -1,5 +1,5 @@
 package Win32::Scsv;
-
+$Win32::Scsv::VERSION = '0.18';
 use strict;
 use warnings;
 
@@ -17,8 +17,6 @@ our @EXPORT_OK = qw(
   xls_2_csv csv_2_xls xls_2_vbs slurp_vbs import_vbs_book empty_xls
   get_xver get_book get_last_row get_last_col tmp_book open_excel
 );
-
-our $VERSION = '0.17';
 
 my $OpenXMLWorkbook = 51; # xlOpenXMLWorkbook
 
